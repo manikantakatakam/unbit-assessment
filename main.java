@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Main {
+public class main {
 
     public static List<List<Integer>> findCombinations(int[] arr, int target) {
         Map<Integer, Integer> complementMap = new HashMap<>();
@@ -52,4 +52,4 @@ public class Main {
         List<List<Integer>> secondComb = findCombinations(mergedArray, doubledTarget);
         System.out.println("Second Combination For " + doubledTarget + ": " + secondComb);
     }
-}
+} 
